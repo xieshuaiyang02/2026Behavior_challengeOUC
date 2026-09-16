@@ -1,0 +1,67 @@
+# Model weights and checkpoints; Python checkpoint-management source stays tracked.
+**/checkpoints/
+**/checkpoint-*/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+pytorch_model*.bin
+model*.bin
+
+# Training outputs, experiment runs and downloaded datasets.
+**/outputs/
+**/output/
+**/wandb/
+**/tensorboard/
+**/events.out.tfevents.*
+/openpi/assets/
+/openpi/data/
+/BEHAVIOR-1K/datasets/*
+!/BEHAVIOR-1K/datasets/README
+!/BEHAVIOR-1K/datasets/.gitignore
+
+# Environments, caches, logs and temporary files.
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.cache/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.log
+*.bak*
+*.success
+*.swp
+*.swo
+*~
+
+# Local settings and credentials.
+**/.codex/
+**/.agents/
+**/.vscode/
+**/.idea/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.netrc
+id_rsa
+id_ed25519
+*.pem
+gha-creds-*.json
+
+# Documentation media and bundled executables omitted from this snapshot.
+/BEHAVIOR-1K/docs/assets/**/*.png
+/BEHAVIOR-1K/docs/assets/**/*.jpg
+/BEHAVIOR-1K/docs/assets/**/*.jpeg
+/BEHAVIOR-1K/docs/assets/**/*.gif
+/BEHAVIOR-1K/bddl3/docs/images/
+/BEHAVIOR-1K/joylo/imgs/
+/BEHAVIOR-1K/asset_pipeline/7zzs
+/BEHAVIOR-1K/asset_pipeline/7za.exe
+/BEHAVIOR-1K/asset_pipeline/b1k_pipeline/vhacd1.exe
+/BEHAVIOR-1K/asset_pipeline/b1k_pipeline/vhacd2.exe

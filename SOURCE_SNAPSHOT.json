@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-09-16T12:19:00.222451+00:00",
+  "projects": {
+    "BEHAVIOR-1K": {
+      "upstream": "https://github.com/StanfordVL/BEHAVIOR-1K.git",
+      "commit": "b1979916ec1549b10a4e65e630bc6504a9af1b00",
+      "branch": "",
+      "tracked_changes": [
+        " M OmniGibson/omnigibson/simulator.py"
+      ]
+    },
+    "openpi": {
+      "upstream": "https://github.com/wensi-ai/openpi.git",
+      "commit": "0cc8e355f7bac0976db1cc3139b1ff0379feea60",
+      "branch": "behavior",
+      "tracked_changes": [
+        " M scripts/b1k/train_b1k.py",
+        " M src/openpi/configs/tasks/b1k.py",
+        " M src/openpi/training/config.py"
+      ]
+    }
+  },
+  "source_file_count": 3005,
+  "source_bytes": 87689789,
+  "custom_untracked_source_files": [
+    "BEHAVIOR-1K/OmniGibson/omnigibson/eval/eval_ouc.py",
+    "BEHAVIOR-1K/OmniGibson/omnigibson/eval/r1pro_ouc.yaml",
+    "openpi/scripts/b1k/audit_ouc_asset_generation.py",
+    "openpi/scripts/b1k/audit_ouc_visual_semantics.py",
+    "openpi/scripts/b1k/serve_b1k_ouc.py",
+    "openpi/scripts/b1k/train_b1k_ouc.py",
+    "openpi/scripts/behavior/build_stage_annotations_ouc.py",
+    "openpi/src/openpi/models/pi0_config_ouc.py",
+    "openpi/src/openpi/models/pi0_ouc.py",
+    "openpi/src/openpi/policies/policy_config_ouc.py",
+    "openpi/src/openpi/training/checkpoints_ouc.py",
+    "openpi/src/openpi/training/config_ouc.py",
+    "openpi/src/openpi/training/data_loader_ouc.py",
+    "openpi/src/openpi/training/stage_annotations_ouc.py",
+    "openpi/src/openpi/training/stage_supervision_ouc.py",
+    "openpi/src/openpi/training/weight_loaders_ouc.py"
+  ],
+  "notebooks_with_outputs_cleared": 116,
+  "excluded_file_counts": {
+    "backup_log_or_generated_marker": 746,
+    "runtime_output_environment_or_local_metadata": 2,
+    "bundled_executable": 4,
+    "empty_notebook_placeholder": 3,
+    "upstream_documentation_media": 472
+  },
+  "note": "Working-tree snapshot; source repositories and their original history remain on the source server."
+}
